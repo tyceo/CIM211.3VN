@@ -5,20 +5,12 @@ using UnityEngine;
 [System.Serializable]
 public class DialogueSegment
 {
-    /// <summary>
-    /// The name of the person currently speaking to display (this can be blank if needed)
-    /// </summary>
+    // The name of the person currently speaking to display (this can be blank if needed)
     public string speakerName;
-    /// <summary>
-    /// The contents of this text segment
-    /// </summary>
+    // The contents of this text segment
     public string text;
-    /// <summary>
-    /// The amount of time between this segment starting and the text being displayed (use this for transitions)
-    /// </summary>
+    // The amount of time between this segment starting and the text being displayed (use this for transitions)
     public float waitTime;
-    /// <summary>
-    /// Call an event with this text as the input when this segment starts. If this is empty, no event is called.
-    /// </summary>
+    // Call an event with this text as the input when this segment starts. If this is empty, no event is called.
     public string callEvent;
 }
