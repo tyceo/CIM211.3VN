@@ -16,6 +16,14 @@ public class DialogueDisplay : MonoBehaviour
     private bool isAwaitingInput = false; // If this script is currently waiting for an input
     private int currentSegment = 0; // Index for the segment currently being displayed
 
+    //portraits change with text
+    public GameObject LeftCharacter;
+    public GameObject RightCharacter;
+
+    public Sprite Paul;
+    public Sprite Bob;
+    public Sprite Dan;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -62,6 +70,11 @@ public class DialogueDisplay : MonoBehaviour
             yield return new WaitForSeconds(1 / displaySpeed);
         }
         Debug.Log("Finished printing text to display");
+
+        SpriteRenderer targetRenderer = LeftCharacter.GetComponent<SpriteRenderer>();
+        
+        targetRenderer.sprite = Paul;
+
         isPrinting = false;
         isAwaitingInput = true;
     }

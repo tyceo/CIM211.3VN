@@ -680,6 +680,11 @@ MonoBehaviour:
     waitTime: 0
     callEvent: 
   isPrinting: 0
+  LeftCharacter: {fileID: 1343055611}
+  RightCharacter: {fileID: 1825253293}
+  Paul: {fileID: 21300000, guid: ab2eab6b6cfc23f47a298a6d71a09ca3, type: 3}
+  Bob: {fileID: 21300000, guid: 6bea5958343e9254388d5ec08712ac3a, type: 3}
+  Dan: {fileID: 21300000, guid: 2090b2e0bcc989c4da0fdeac8b64efa2, type: 3}
 --- !u!1 &971879186
 GameObject:
   m_ObjectHideFlags: 0
@@ -1454,9 +1459,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3e0f4ecc2a3f954d860a58a04322e1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  background: {fileID: 0}
-  backgroundImages: []
-  Character1: {fileID: 1343055611}
+  LeftCharacter1: {fileID: 1343055611}
+  RightCharacter2: {fileID: 1825253293}
 --- !u!4 &2087667634
 Transform:
   m_ObjectHideFlags: 0

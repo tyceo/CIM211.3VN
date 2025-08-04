@@ -4,7 +4,10 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    public GameObject Character1;
+    public GameObject LeftCharacter1;
+    public GameObject RightCharacter2;
+
+    
 
     // Start is called before the first frame update
     void Start()
