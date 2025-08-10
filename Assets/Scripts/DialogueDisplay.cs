@@ -16,10 +16,22 @@ public class DialogueDisplay : MonoBehaviour
     private bool isAwaitingInput = false; // If this script is currently waiting for an input
     private int currentSegment = 0; // Index for the segment currently being displayed
 
+    public GameObject Leftportrate;
+    public GameObject Rightportrate;
+
+    public Sprite Paul;
+    public Sprite Bob;
+    public Sprite Dan;
+
+    public TMP_Text Leftname;    //portraite names
+    public TMP_Text Rightname;
+
+
     // Start is called before the first frame update
     void Start()
     {
         StartCoroutine(PrintText(segments[0]));
+        Leftname.text = "Main Character"; // Set the initial speaker name
     }
 
     // Update is called once per frame
@@ -55,6 +67,46 @@ public class DialogueDisplay : MonoBehaviour
         yield return new WaitForSeconds(segment.waitTime);
         isPrinting = true;
         speakerText.text = segment.speakerName;
+
+        SpriteRenderer sr = Rightportrate.GetComponent<SpriteRenderer>();
+        sr.sprite = Paul; 
+        if (currentSegment == 0)
+        {
+            Leftportrate.SetActive(false);
+            Rightportrate.SetActive(true);
+            Rightname.text = "2nd person"; 
+        }
+        else if (currentSegment == 1)
+        {
+            Leftportrate.SetActive(true);
+            Rightportrate.SetActive(false);
+            sr.sprite = Bob;
+        }
+        else if (currentSegment == 2)
+        {
+            Leftportrate.SetActive(true);
+            Rightportrate.SetActive(false);
+            sr.sprite = Dan;
+        }
+        else if (currentSegment == 3)
+        {
+            Leftportrate.SetActive(false);
+            Rightportrate.SetActive(true);
+            sr.sprite = Paul;
+        }
+        else if (currentSegment == 4)
+        {
+            Leftportrate.SetActive(true);
+            Rightportrate.SetActive(false);
+            sr.sprite = Bob;
+        }
+        else if (currentSegment == 5)
+        {
+            Leftportrate.SetActive(true);
+            Rightportrate.SetActive(false);
+            sr.sprite = Dan;
+        }
+
         // Display the text one character at a time
         foreach (char c in segment.text.ToCharArray())
         {
