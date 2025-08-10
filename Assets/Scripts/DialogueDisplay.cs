@@ -53,9 +53,9 @@ public class DialogueDisplay : MonoBehaviour
     IEnumerator PrintText(DialogueSegment segment)
     {
         // Call a dialogue event if needed
-        if (segment.callEvent != string.Empty)
+        foreach (string callEvent in segment.callEvents)
         {
-            DialogueEvent?.Invoke(segment.callEvent);
+            DialogueEvent?.Invoke(callEvent);
         }
         // Clear any previous text and wait if needed
         textDisplay.text = string.Empty;
