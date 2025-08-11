@@ -772,24 +772,283 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 1705752059}
   speakerText: {fileID: 1255731638}
-  displaySpeed: 30
+  displaySpeed: 300
   segments:
-  - speakerName: Paul
-    text: 'Line 1 Line 1 Line 1 Line 1 '
-    waitTime: 1
-    callEvents: []
-  - speakerName: Bob
-    text: 'Line 2 Line 2 Line 2 Line 2 '
-    waitTime: 2
+  - speakerName: 
+    text: 'A boy sits at his desk. '
+    waitTime: 0
     callEvents:
-    - fade to background
-  - speakerName: Paul
-    text: 'Line 3 Line 3 Line 3 Line 3 '
+    - fade in
+  - speakerName: 
+    text: His palms rest on the table, and his head rests on his hands.
     waitTime: 0
     callEvents: []
   - speakerName: 
-    text: The end.
+    text: 'This boy is Jarrod Sumner: he is sixteen years old, and a Grade Eleven
+      Special Education student at East West High School. '
     waitTime: 0
+    callEvents: []
+  - speakerName: 
+    text: 'He is waiting out the rest of his lunch period in his classroom, as he
+      has every school day for the last three years. His parents decided this arrangement
+      with his school and without him. '
+    waitTime: 0
+    callEvents: []
+  - speakerName: 
+    text: "Outside the classroom, most of the student body are eating and playing.
+      While the cacophony of noise they make is not Jarrod\u2019s favourite thing
+      in the world, the cold solitude inside the classroom, virtually alone, is even
+      worse."
+    waitTime: 0
+    callEvents: []
+  - speakerName: 
+    text: 'Standing up and turning behind him to peer out of the window, he notices
+      two students at the table nearest to the class. '
+    waitTime: 0
+    callEvents: []
+  - speakerName: 
+    text: Benjamin Roycester and Cynthia Graham.
+    waitTime: 0
+    callEvents: []
+  - speakerName: 
+    text: "He knows these two people quite well. And right now, they are playing
+      a card game with one another. Trading cards, much like the ones sitting inside
+      a box in Jarrod\u2019s bag."
+    waitTime: 0
+    callEvents: []
+  - speakerName: 
+    text: <i>Without me?</i>
+    waitTime: 0
+    callEvents: []
+  - speakerName: 
+    text: "<i>But they said that they\u2019d wait until after school for the new
+      pack\u2026</i>"
+    waitTime: 0
+    callEvents: []
+  - speakerName: 
+    text: 'A woman looks up from her desk, her voice catching Jarrod by surprise
+      as she speaks. '
+    waitTime: 0
+    callEvents: []
+  - speakerName: 
+    text: "This is Mrs. Haye, Jarrod\u2019s teacher for his Social Skills class."
+    waitTime: 0
+    callEvents: []
+  - speakerName: 
+    text: They have never gotten along particularly well.
+    waitTime: 0
+    callEvents: []
+  - speakerName: Mr. Haye
+    text: Jarrod, You need to sit down.
+    waitTime: 0
+    callEvents: []
+  - speakerName: 
+    text: "<i>I don\u2019t like that rule. If we have thirty minutes for lunch, we
+      should be able to stand up and walk around during it.</i>"
+    waitTime: 0
+    callEvents: []
+  - speakerName: 
+    text: "<i>We\u2019re already sitting for so long for classes every day, and Mr.
+      Kemp had an entire week of classes about moving to stay healthy, so this rule
+      goes against all of that.</i>"
+    waitTime: 0
+    callEvents: []
+  - speakerName: Jarrod
+    text: 'But I can see Ben and Cyndi, can I please go sit with them? '
+    waitTime: 0
+    callEvents: []
+  - speakerName: 
+    text: Mrs. Haye says nothing initially, simply giving Jarrod a disapproving look.
+    waitTime: 0
+    callEvents: []
+  - speakerName: Mrs. Haye
+    text: "I\u2019m sorry, but no. You know I can\u2019t let you out until the bell."
+    waitTime: 0
+    callEvents: []
+  - speakerName: Jarrod
+    text: Please?
+    waitTime: 0
+    callEvents: []
+  - speakerName: Mrs. Haye
+    text: Jarrod, no.
+    waitTime: 0
+    callEvents: []
+  - speakerName: Jarrod
+    text: Why Not?
+    waitTime: 0
+    callEvents: []
+  - speakerName: Mrs. Haye
+    text: You Know Why
+    waitTime: 0
+    callEvents: []
+  - speakerName: 
+    text: "<i>I don\u2019t like to exaggerate, but I hate it when people say that.</i>"
+    waitTime: 0
+    callEvents: []
+  - speakerName: 
+    text: "<i>\u201CYou know why\u201D or \u201Cyou know what you did\u201D are just
+      things people say when they want to be upset at you but don\u2019t have a good
+      reason to be.</i>"
+    waitTime: 0
+    callEvents: []
+  - speakerName: Jarrod
+    text: But that was three years ago.
+    waitTime: 0
+    callEvents: []
+  - speakerName: Mrs. Haye
+    text: "And it may have been, but that doesn\u2019t change that you need to stay
+      here, as per your parents\u2019 decision. "
+    waitTime: 0
+    callEvents: []
+  - speakerName: Mrs. Haye
+    text: "We can\u2019t risk you breaking any more student property."
+    waitTime: 0
+    callEvents: []
+  - speakerName: Jarrod
+    text: "Wasn\u2019t the suspension not enough? "
+    waitTime: 0
+    callEvents: []
+  - speakerName: Jarrod
+    text: "A week felt excessive, too\u2026 "
+    waitTime: 0
+    callEvents: []
+  - speakerName: Mrs. Haye
+    text: Jarrod, sit down!
+    waitTime: 0
+    callEvents: []
+  - speakerName: Mrs. Haye
+    text: Jarrod, sit down!
+    waitTime: 0
+    callEvents: []
+  - speakerName: 
+    text: "<i>Mrs. Haye doesn\u2019t normally yell at me, because she knows I don\u2019t
+      like loud noises.</i>"
+    waitTime: 0
+    callEvents: []
+  - speakerName: 
+    text: "<i>I\u2019m never ready for it when she does.</i>"
+    waitTime: 0
+    callEvents: []
+  - speakerName: Mrs. Haye
+    text: "If you know what\u2019s best for you, you\u2019ll listen to me, young
+      man! \t         And if you open that door, I will call Chaplain Isaac on you!"
+    waitTime: 0
+    callEvents: []
+  - speakerName: 
+    text: "<i>I do know what\u2019s best for me, and it isn\u2019t this.</i>"
+    waitTime: 0
+    callEvents: []
+  - speakerName: 
+    text: 'Jarrod, in one quick motion, leans down to grab hold of his bag, pulls
+      the door handle down, and leaves the classroom.  '
+    waitTime: 0
+    callEvents: []
+  - speakerName: 
+    text: 'Just as the door closes, he can hear an exasperated sigh from Mrs. Haye,
+      which goes ignored as he makes his way down the winding ramp and towards his
+      friends. '
+    waitTime: 2
+    callEvents:
+    - fade in
+  - speakerName: Jarrod
+    text: Ben! Cyndi!
+    waitTime: 0
+    callEvents: []
+  - speakerName: 
+    text: 'As Jarrod calls out to his friends, waving frantically, they turn themselves
+      to look in his direction. '
+    waitTime: 0
+    callEvents: []
+  - speakerName: Ben
+    text: Hey!
+    waitTime: 0
+    callEvents: []
+  - speakerName: 
+    text: 'Jarrod sits himself down next to Ben, breathing heavily from the speed
+      at which he got from Point A to B. '
+    waitTime: 0
+    callEvents: []
+  - speakerName: Cynthia
+    text: You good there?
+    waitTime: 0
+    callEvents: []
+  - speakerName: Jarrod
+    text: "I\u2019m okay, I just haven\u2019t run like that in a while."
+    waitTime: 0
+    callEvents: []
+  - speakerName: Cynthia
+    text: It did kinda look like you were being chased.
+    waitTime: 0
+    callEvents: []
+  - speakerName: 'Jarrod:'
+    text: I guess I was?
+    waitTime: 0
+    callEvents: []
+  - speakerName: 
+    text: "<i>Someone here smells like cigarette smoke, but I can\u2019t tell who.</i>"
+    waitTime: 0
+    callEvents: []
+  - speakerName: 
+    text: "<i>I don\u2019t like that smell at all, but I know it\u2019s coming from
+      one of my friends, so I can put up with it for now.</i>"
+    waitTime: 0
+    callEvents: []
+  - speakerName: Jarrod
+    text: 'What did I miss? '
+    waitTime: 0
+    callEvents: []
+  - speakerName: Ben
+    text: Our class went to the Careers Day down at the SAC.
+    waitTime: 0
+    callEvents: []
+  - speakerName: Ben
+    text: "You wouldn\u2019t have liked it. It was noisy"
+    waitTime: 0
+    callEvents: []
+  - speakerName: Jarrod
+    text: "I think you\u2019re right."
+    waitTime: 0
+    callEvents: []
+  - speakerName: Cynthia
+    text: "By the way, you didn\u2019t tell me who that guy you were talking to was."
+    waitTime: 0
+    callEvents: []
+  - speakerName: Ben
+    text: "He\u2019s a military recruiter"
+    waitTime: 0
+    callEvents: []
+  - speakerName: Cynthia
+    text: 'Oh, ew. '
+    waitTime: 0
+    callEvents: []
+  - speakerName: 
+    text: Ben turns to look at Jarrod, putting his hand of cards face down on the
+      table.
+    waitTime: 0
+    callEvents: []
+  - speakerName: Ben
+    text: "Aren\u2019t you supposed to be in S Block still, Jarrod? "
+    waitTime: 0
+    callEvents: []
+  - speakerName: Jarrod
+    text: I wanted to sit with you guys.
+    waitTime: 0
+    callEvents: []
+  - speakerName: Cynthia
+    text: "Chaplain\u2019s gonna be pissed at you for that."
+    waitTime: 0
+    callEvents: []
+  - speakerName: Jarrod
+    text: "I don\u2019t care."
+    waitTime: 0
+    callEvents: []
+  - speakerName: Jarrod
+    text: I wanted to sit with you guys.
+    waitTime: 2
+    callEvents: []
+  - speakerName: 
+    text: end
+    waitTime: 2
     callEvents:
     - fade out
   isPrinting: 0

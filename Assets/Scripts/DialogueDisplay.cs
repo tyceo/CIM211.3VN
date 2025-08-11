@@ -31,7 +31,8 @@ public class DialogueDisplay : MonoBehaviour
     void Start()
     {
         StartCoroutine(PrintText(segments[0]));
-        Leftname.text = "Main Character"; // Set the initial speaker name
+        Leftname.text = ""; // Set the initial speaker name
+
     }
 
     // Update is called once per frame
@@ -72,39 +73,48 @@ public class DialogueDisplay : MonoBehaviour
         sr.sprite = Paul; 
         if (currentSegment == 0)
         {
-            Leftportrate.SetActive(false);
-            Rightportrate.SetActive(true);
-            Rightname.text = "2nd person"; 
+            Leftportrate.SetActive(true);
+            Rightportrate.SetActive(false);
+            Rightname.text = ""; 
         }
         else if (currentSegment == 1)
         {
             Leftportrate.SetActive(true);
             Rightportrate.SetActive(false);
-            sr.sprite = Bob;
+            //sr.sprite = Bob;
         }
         else if (currentSegment == 2)
         {
             Leftportrate.SetActive(true);
             Rightportrate.SetActive(false);
-            sr.sprite = Dan;
+            //sr.sprite = Dan;
+            Leftname.text = "Jarrod";
         }
         else if (currentSegment == 3)
         {
-            Leftportrate.SetActive(false);
-            Rightportrate.SetActive(true);
-            sr.sprite = Paul;
+            Leftportrate.SetActive(true);
+            Rightportrate.SetActive(false);
+            //sr.sprite = Paul;
         }
         else if (currentSegment == 4)
         {
             Leftportrate.SetActive(true);
             Rightportrate.SetActive(false);
-            sr.sprite = Bob;
+            //sr.sprite = Bob;
         }
-        else if (currentSegment == 5)
+        else if (currentSegment == 13)
         {
             Leftportrate.SetActive(true);
-            Rightportrate.SetActive(false);
-            sr.sprite = Dan;
+            Rightportrate.SetActive(true);
+            //sr.sprite = Dan;
+            Rightname.text = "Mrs. Haye";
+        }
+        else if (currentSegment == 16)
+        {
+            Leftportrate.SetActive(true);
+            Rightportrate.SetActive(true);
+            //sr.sprite = Dan;
+            Rightname.text = "Mrs. Haye";
         }
 
         // Display the text one character at a time
