@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DialogueDisplay : MonoBehaviour
 {
@@ -51,6 +52,8 @@ public class DialogueDisplay : MonoBehaviour
             {
                 // There are no more segments to display
                 Debug.Log("DialogueDisplay has reached the end of dialogue segments");
+                // Go back to the start screen
+                SceneManager.LoadScene(0);
             }
         }
     }

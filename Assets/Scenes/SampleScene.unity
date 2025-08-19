@@ -777,8 +777,7 @@ MonoBehaviour:
   - speakerName: 
     text: 'A boy sits at his desk. '
     waitTime: 0
-    callEvents:
-    - fade in
+    callEvents: []
   - speakerName: 
     text: His palms rest on the table, and his head rests on his hands.
     waitTime: 0
@@ -916,10 +915,6 @@ MonoBehaviour:
     text: Jarrod, sit down!
     waitTime: 0
     callEvents: []
-  - speakerName: Mrs. Haye
-    text: Jarrod, sit down!
-    waitTime: 0
-    callEvents: []
   - speakerName: 
     text: "<i>Mrs. Haye doesn\u2019t normally yell at me, because she knows I don\u2019t
       like loud noises.</i>"
@@ -931,7 +926,7 @@ MonoBehaviour:
     callEvents: []
   - speakerName: Mrs. Haye
     text: "If you know what\u2019s best for you, you\u2019ll listen to me, young
-      man! \t         And if you open that door, I will call Chaplain Isaac on you!"
+      man! And if you open that door, I will call Chaplain Isaac on you!"
     waitTime: 0
     callEvents: []
   - speakerName: 
@@ -1044,7 +1039,7 @@ MonoBehaviour:
     callEvents: []
   - speakerName: Jarrod
     text: I wanted to sit with you guys.
-    waitTime: 2
+    waitTime: 0
     callEvents: []
   - speakerName: 
     text: end
