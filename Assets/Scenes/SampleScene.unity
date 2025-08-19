@@ -1383,7 +1383,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   musicSource: {fileID: 1264996699}
-  musicTracks: []
+  musicTracks:
+  - {fileID: 8300000, guid: 210ef1d6bd5984348bf63dc70bd62709, type: 3}
 --- !u!4 &1264996701
 Transform:
   m_ObjectHideFlags: 0
