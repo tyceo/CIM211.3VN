@@ -15,4 +15,5 @@ public class DialogueSegment
     public float waitTime;
     // For each string in this array, call an event with this text as the input when this segment starts. If this is empty, no event is called.
     public string[] callEvents;
+    public int leftPortraitIndex;
 }

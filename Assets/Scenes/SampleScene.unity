@@ -193,8 +193,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1235545735
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -610,8 +610,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1235545735
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -657,8 +657,8 @@ MonoBehaviour:
   transitionAnimator: {fileID: 528842730}
   background: {fileID: 749566174}
   backgroundImages:
-  - {fileID: 21300000, guid: b769ba32d9a0f1b4d8aea5fb970e3285, type: 3}
-  - {fileID: 21300000, guid: 64584a2dc07da044eb8b2c50453361de, type: 3}
+  - {fileID: 21300000, guid: 2fe7092d8ed87eb4d8b5de1de25efe13, type: 3}
+  - {fileID: 21300000, guid: b0919f26d9539e544bb3b60f30874cb2, type: 3}
 --- !u!212 &749566174
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -779,17 +779,20 @@ MonoBehaviour:
     rightPortraitIndex: 0
     waitTime: 0
     callEvents: []
+    leftPortraitIndex: 0
   - speakerName: 
     text: His palms rest on the table, and his head rests on his hands.
     rightPortraitIndex: 0
     waitTime: 0
     callEvents: []
+    leftPortraitIndex: 0
   - speakerName: 
     text: 'This boy is Jarrod Sumner: he is sixteen years old, and a Grade Eleven
       Special Education student at East West High School. '
     rightPortraitIndex: 0
     waitTime: 0
     callEvents: []
+    leftPortraitIndex: 0
   - speakerName: 
     text: 'He is waiting out the rest of his lunch period in his classroom, as he
       has every school day for the last three years. His parents decided this arrangement
@@ -797,6 +800,7 @@ MonoBehaviour:
     rightPortraitIndex: 0
     waitTime: 0
     callEvents: []
+    leftPortraitIndex: 0
   - speakerName: 
     text: "Outside the classroom, most of the student body are eating and playing.
       While the cacophony of noise they make is not Jarrod\u2019s favourite thing
@@ -805,17 +809,20 @@ MonoBehaviour:
     rightPortraitIndex: 0
     waitTime: 0
     callEvents: []
+    leftPortraitIndex: 0
   - speakerName: 
     text: 'Standing up and turning behind him to peer out of the window, he notices
       two students at the table nearest to the class. '
     rightPortraitIndex: 0
     waitTime: 0
     callEvents: []
+    leftPortraitIndex: 1
   - speakerName: 
     text: Benjamin Roycester and Cynthia Graham.
     rightPortraitIndex: 0
     waitTime: 0
     callEvents: []
+    leftPortraitIndex: 1
   - speakerName: 
     text: "He knows these two people quite well. And right now, they are playing
       a card game with one another. Trading cards, much like the ones sitting inside
@@ -823,157 +830,186 @@ MonoBehaviour:
     rightPortraitIndex: 0
     waitTime: 0
     callEvents: []
+    leftPortraitIndex: 2
   - speakerName: 
     text: <i>Without me?</i>
     rightPortraitIndex: 0
     waitTime: 0
     callEvents: []
+    leftPortraitIndex: 2
   - speakerName: 
     text: "<i>But they said that they\u2019d wait until after school for the new
       pack\u2026</i>"
     rightPortraitIndex: 0
     waitTime: 0
     callEvents: []
+    leftPortraitIndex: 3
   - speakerName: 
     text: 'A woman looks up from her desk, her voice catching Jarrod by surprise
       as she speaks. '
-    rightPortraitIndex: 2
+    rightPortraitIndex: 1
     waitTime: 0
     callEvents: []
+    leftPortraitIndex: 3
   - speakerName: 
     text: "This is Mrs. Haye, Jarrod\u2019s teacher for his Social Skills class."
-    rightPortraitIndex: 2
+    rightPortraitIndex: 1
     waitTime: 0
     callEvents: []
+    leftPortraitIndex: 3
   - speakerName: 
     text: They have never gotten along particularly well.
-    rightPortraitIndex: 2
+    rightPortraitIndex: 1
     waitTime: 0
     callEvents: []
+    leftPortraitIndex: 3
   - speakerName: Mrs. Haye
     text: Jarrod, You need to sit down.
-    rightPortraitIndex: 2
+    rightPortraitIndex: 1
     waitTime: 0
     callEvents: []
+    leftPortraitIndex: 3
   - speakerName: 
     text: "<i>I don\u2019t like that rule. If we have thirty minutes for lunch, we
       should be able to stand up and walk around during it.</i>"
-    rightPortraitIndex: 2
+    rightPortraitIndex: 1
     waitTime: 0
     callEvents: []
+    leftPortraitIndex: 3
   - speakerName: 
     text: "<i>We\u2019re already sitting for so long for classes every day, and Mr.
       Kemp had an entire week of classes about moving to stay healthy, so this rule
       goes against all of that.</i>"
-    rightPortraitIndex: 2
+    rightPortraitIndex: 1
     waitTime: 0
     callEvents: []
+    leftPortraitIndex: 3
   - speakerName: Jarrod
     text: 'But I can see Ben and Cyndi, can I please go sit with them? '
     rightPortraitIndex: 2
     waitTime: 0
     callEvents: []
+    leftPortraitIndex: 4
   - speakerName: 
     text: Mrs. Haye says nothing initially, simply giving Jarrod a disapproving look.
     rightPortraitIndex: 2
     waitTime: 0
     callEvents: []
+    leftPortraitIndex: 4
   - speakerName: Mrs. Haye
     text: "I\u2019m sorry, but no. You know I can\u2019t let you out until the bell."
-    rightPortraitIndex: 2
+    rightPortraitIndex: 1
     waitTime: 0
     callEvents: []
+    leftPortraitIndex: 3
   - speakerName: Jarrod
     text: Please?
     rightPortraitIndex: 2
     waitTime: 0
     callEvents: []
+    leftPortraitIndex: 4
   - speakerName: Mrs. Haye
     text: Jarrod, no.
-    rightPortraitIndex: 2
+    rightPortraitIndex: 1
     waitTime: 0
     callEvents: []
+    leftPortraitIndex: 3
   - speakerName: Jarrod
     text: Why Not?
     rightPortraitIndex: 2
     waitTime: 0
     callEvents: []
+    leftPortraitIndex: 4
   - speakerName: Mrs. Haye
     text: You Know Why
-    rightPortraitIndex: 2
+    rightPortraitIndex: 1
     waitTime: 0
     callEvents: []
+    leftPortraitIndex: 3
   - speakerName: 
     text: "<i>I don\u2019t like to exaggerate, but I hate it when people say that.</i>"
-    rightPortraitIndex: 2
+    rightPortraitIndex: 1
     waitTime: 0
     callEvents: []
+    leftPortraitIndex: 5
   - speakerName: 
     text: "<i>\u201CYou know why\u201D or \u201Cyou know what you did\u201D are just
       things people say when they want to be upset at you but don\u2019t have a good
       reason to be.</i>"
-    rightPortraitIndex: 2
+    rightPortraitIndex: 1
     waitTime: 0
     callEvents: []
+    leftPortraitIndex: 5
   - speakerName: Jarrod
     text: But that was three years ago.
     rightPortraitIndex: 2
     waitTime: 0
     callEvents: []
+    leftPortraitIndex: 4
   - speakerName: Mrs. Haye
     text: "And it may have been, but that doesn\u2019t change that you need to stay
       here, as per your parents\u2019 decision. "
-    rightPortraitIndex: 2
+    rightPortraitIndex: 1
     waitTime: 0
     callEvents: []
+    leftPortraitIndex: 5
   - speakerName: Mrs. Haye
     text: "We can\u2019t risk you breaking any more student property."
-    rightPortraitIndex: 2
+    rightPortraitIndex: 1
     waitTime: 0
     callEvents: []
+    leftPortraitIndex: 5
   - speakerName: Jarrod
     text: "Wasn\u2019t the suspension not enough? "
     rightPortraitIndex: 2
     waitTime: 0
     callEvents: []
+    leftPortraitIndex: 4
   - speakerName: Jarrod
     text: "A week felt excessive, too\u2026 "
     rightPortraitIndex: 2
     waitTime: 0
     callEvents: []
+    leftPortraitIndex: 4
   - speakerName: Mrs. Haye
     text: Jarrod, sit down!
-    rightPortraitIndex: 2
+    rightPortraitIndex: 3
     waitTime: 0
     callEvents: []
+    leftPortraitIndex: 6
   - speakerName: 
     text: "<i>Mrs. Haye doesn\u2019t normally yell at me, because she knows I don\u2019t
       like loud noises.</i>"
-    rightPortraitIndex: 2
+    rightPortraitIndex: 3
     waitTime: 0
     callEvents: []
+    leftPortraitIndex: 6
   - speakerName: 
     text: "<i>I\u2019m never ready for it when she does.</i>"
-    rightPortraitIndex: 2
+    rightPortraitIndex: 3
     waitTime: 0
     callEvents: []
+    leftPortraitIndex: 6
   - speakerName: Mrs. Haye
     text: "If you know what\u2019s best for you, you\u2019ll listen to me, young
       man! And if you open that door, I will call Chaplain Isaac on you!"
-    rightPortraitIndex: 2
+    rightPortraitIndex: 3
     waitTime: 0
     callEvents: []
+    leftPortraitIndex: 6
   - speakerName: 
     text: "<i>I do know what\u2019s best for me, and it isn\u2019t this.</i>"
-    rightPortraitIndex: 2
+    rightPortraitIndex: 3
     waitTime: 0
     callEvents: []
+    leftPortraitIndex: 7
   - speakerName: 
     text: 'Jarrod, in one quick motion, leans down to grab hold of his bag, pulls
       the door handle down, and leaves the classroom.  '
     rightPortraitIndex: 0
     waitTime: 0
     callEvents: []
+    leftPortraitIndex: 7
   - speakerName: 
     text: 'Just as the door closes, he can hear an exasperated sigh from Mrs. Haye,
       which goes ignored as he makes his way down the winding ramp and towards his
@@ -982,148 +1018,197 @@ MonoBehaviour:
     waitTime: 2
     callEvents:
     - fade in
+    leftPortraitIndex: 7
   - speakerName: Jarrod
     text: Ben! Cyndi!
     rightPortraitIndex: 0
     waitTime: 0
     callEvents: []
+    leftPortraitIndex: 8
   - speakerName: 
     text: 'As Jarrod calls out to his friends, waving frantically, they turn themselves
       to look in his direction. '
     rightPortraitIndex: 0
     waitTime: 0
     callEvents: []
+    leftPortraitIndex: 8
   - speakerName: Ben
     text: Hey!
     rightPortraitIndex: 4
     waitTime: 0
     callEvents: []
+    leftPortraitIndex: 8
   - speakerName: 
     text: 'Jarrod sits himself down next to Ben, breathing heavily from the speed
       at which he got from Point A to B. '
     rightPortraitIndex: 4
     waitTime: 0
     callEvents: []
+    leftPortraitIndex: 8
   - speakerName: Cynthia
     text: You good there?
-    rightPortraitIndex: 3
+    rightPortraitIndex: 7
     waitTime: 0
     callEvents: []
+    leftPortraitIndex: 8
   - speakerName: Jarrod
     text: "I\u2019m okay, I just haven\u2019t run like that in a while."
-    rightPortraitIndex: 3
+    rightPortraitIndex: 7
     waitTime: 0
     callEvents: []
+    leftPortraitIndex: 9
   - speakerName: Cynthia
     text: It did kinda look like you were being chased.
-    rightPortraitIndex: 3
+    rightPortraitIndex: 7
     waitTime: 0
     callEvents: []
+    leftPortraitIndex: 9
   - speakerName: 'Jarrod:'
     text: I guess I was?
-    rightPortraitIndex: 3
+    rightPortraitIndex: 7
     waitTime: 0
     callEvents: []
+    leftPortraitIndex: 10
   - speakerName: 
     text: "<i>Someone here smells like cigarette smoke, but I can\u2019t tell who.</i>"
-    rightPortraitIndex: 3
+    rightPortraitIndex: 7
     waitTime: 0
     callEvents: []
+    leftPortraitIndex: 10
   - speakerName: 
     text: "<i>I don\u2019t like that smell at all, but I know it\u2019s coming from
       one of my friends, so I can put up with it for now.</i>"
-    rightPortraitIndex: 3
+    rightPortraitIndex: 7
     waitTime: 0
     callEvents: []
+    leftPortraitIndex: 10
   - speakerName: Jarrod
     text: 'What did I miss? '
-    rightPortraitIndex: 3
+    rightPortraitIndex: 7
     waitTime: 0
     callEvents: []
+    leftPortraitIndex: 8
   - speakerName: Ben
     text: Our class went to the Careers Day down at the SAC.
-    rightPortraitIndex: 4
+    rightPortraitIndex: 5
     waitTime: 0
     callEvents: []
+    leftPortraitIndex: 8
   - speakerName: Ben
     text: "You wouldn\u2019t have liked it. It was noisy"
-    rightPortraitIndex: 4
+    rightPortraitIndex: 5
     waitTime: 0
     callEvents: []
+    leftPortraitIndex: 8
   - speakerName: Jarrod
     text: "I think you\u2019re right."
-    rightPortraitIndex: 4
+    rightPortraitIndex: 5
     waitTime: 0
     callEvents: []
+    leftPortraitIndex: 8
   - speakerName: Cynthia
     text: "By the way, you didn\u2019t tell me who that guy you were talking to was."
-    rightPortraitIndex: 3
+    rightPortraitIndex: 8
     waitTime: 0
     callEvents: []
+    leftPortraitIndex: 8
   - speakerName: Ben
     text: "He\u2019s a military recruiter"
-    rightPortraitIndex: 4
+    rightPortraitIndex: 5
     waitTime: 0
     callEvents: []
+    leftPortraitIndex: 8
   - speakerName: Cynthia
     text: 'Oh, ew. '
-    rightPortraitIndex: 3
+    rightPortraitIndex: 9
     waitTime: 0
     callEvents: []
+    leftPortraitIndex: 8
   - speakerName: 
     text: Ben turns to look at Jarrod, putting his hand of cards face down on the
       table.
-    rightPortraitIndex: 4
+    rightPortraitIndex: 5
     waitTime: 0
     callEvents: []
+    leftPortraitIndex: 8
   - speakerName: Ben
     text: "Aren\u2019t you supposed to be in S Block still, Jarrod? "
-    rightPortraitIndex: 4
+    rightPortraitIndex: 6
     waitTime: 0
     callEvents: []
+    leftPortraitIndex: 8
   - speakerName: Jarrod
     text: I wanted to sit with you guys.
-    rightPortraitIndex: 4
+    rightPortraitIndex: 6
     waitTime: 0
     callEvents: []
+    leftPortraitIndex: 8
   - speakerName: Cynthia
     text: "Chaplain\u2019s gonna be pissed at you for that."
-    rightPortraitIndex: 3
+    rightPortraitIndex: 7
     waitTime: 0
     callEvents: []
+    leftPortraitIndex: 8
   - speakerName: Jarrod
     text: "I don\u2019t care."
-    rightPortraitIndex: 3
+    rightPortraitIndex: 7
     waitTime: 0
     callEvents: []
+    leftPortraitIndex: 11
   - speakerName: Jarrod
     text: I wanted to sit with you guys.
-    rightPortraitIndex: 3
+    rightPortraitIndex: 7
     waitTime: 0
     callEvents: []
+    leftPortraitIndex: 11
   - speakerName: 
     text: end
     rightPortraitIndex: 0
     waitTime: 2
     callEvents:
     - fade out
+    leftPortraitIndex: 12
   isPrinting: 0
   portraitSprites:
   - {fileID: 0}
-  - {fileID: 21300000, guid: 6f655d0a5d053a349b81f907024f6fc8, type: 3}
-  - {fileID: 21300000, guid: e7b39555b290f864f80bba35b21c3130, type: 3}
-  - {fileID: 21300000, guid: 1d6326e0bbc9be540bf9510389a58306, type: 3}
-  - {fileID: 21300000, guid: 6bea5958343e9254388d5ec08712ac3a, type: 3}
+  - {fileID: 21300000, guid: 8f980ee3ec7f82648acfa9f52a8f9703, type: 3}
+  - {fileID: 21300000, guid: 82dd02fc1b95c374f890b96583d93f39, type: 3}
+  - {fileID: 21300000, guid: 8b061790643ee044e98e489664877c23, type: 3}
+  - {fileID: 21300000, guid: 151cfc2d9e674754ca3b170a24dca24c, type: 3}
+  - {fileID: 21300000, guid: 9abc08ff57b90fc4ca42d5843a937145, type: 3}
+  - {fileID: 21300000, guid: 3824e01b58927b447a9bb9411f6e748f, type: 3}
+  - {fileID: 21300000, guid: d8da8e3ee878b8346a9aaf564bbae454, type: 3}
+  - {fileID: 21300000, guid: 63e8bacc200429e479eff963d400fbf1, type: 3}
+  - {fileID: 21300000, guid: fe94cf1210e502d458f67106b6540317, type: 3}
   portraitNames:
   - 
-  - Jarrod
   - Mrs. Hayde
-  - Cynthia
+  - Mrs. Hayde
+  - Mrs. Hayde
   - Ben
+  - Ben
+  - Ben
+  - Cynthia
+  - Cynthia
+  - Cynthia
   leftPortrait: {fileID: 1343055612}
   rightPortrait: {fileID: 1825253294}
   Leftname: {fileID: 448990990}
   Rightname: {fileID: 1588210955}
+  leftPortraitSprites:
+  - {fileID: 21300000, guid: 2ee52f7d971f018478d9cc50bb2c9f47, type: 3}
+  - {fileID: 21300000, guid: b37fa958c81827d46aa22f31d79fcb05, type: 3}
+  - {fileID: 21300000, guid: e54d578e75b57d74b832dfe57910101c, type: 3}
+  - {fileID: 21300000, guid: fb6165a28737f7a46a9735fb4772ee11, type: 3}
+  - {fileID: 21300000, guid: 4d34123469cdd78459d8a88925d07645, type: 3}
+  - {fileID: 21300000, guid: 2ee52f7d971f018478d9cc50bb2c9f47, type: 3}
+  - {fileID: 21300000, guid: e54d578e75b57d74b832dfe57910101c, type: 3}
+  - {fileID: 21300000, guid: b02ee3facf2ad424982d8bb8c99a5a0e, type: 3}
+  - {fileID: 21300000, guid: a128df17f6ac6334ea547ff987cbd98f, type: 3}
+  - {fileID: 21300000, guid: ba915736ddf74dc44824f56a1a247d07, type: 3}
+  - {fileID: 21300000, guid: 2ee52f7d971f018478d9cc50bb2c9f47, type: 3}
+  - {fileID: 21300000, guid: 32424e1af4703004ca3eadced1924cd5, type: 3}
+  - {fileID: 0}
 --- !u!1 &971879186
 GameObject:
   m_ObjectHideFlags: 0
@@ -1548,7 +1633,7 @@ Transform:
   m_GameObject: {fileID: 1343055611}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.62, y: 1.88, z: 0}
+  m_LocalPosition: {x: -7.62, y: -1.39, z: 0}
   m_LocalScale: {x: 0.31, y: 0.31, z: 0.31}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -2005,7 +2090,7 @@ Transform:
   m_GameObject: {fileID: 1825253293}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.65, y: 1.9, z: 0}
+  m_LocalPosition: {x: 7.65, y: -1.28, z: 0}
   m_LocalScale: {x: 0.31, y: 0.31, z: 0.31}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -2115,7 +2200,7 @@ SpriteRenderer:
   m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.8352941}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0

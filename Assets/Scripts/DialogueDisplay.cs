@@ -26,6 +26,8 @@ public class DialogueDisplay : MonoBehaviour
     public TMP_Text Leftname;
     public TMP_Text Rightname;
 
+    public Sprite[] leftPortraitSprites;
+
 
     // Start is called before the first frame update
     void Start()
@@ -81,6 +83,16 @@ public class DialogueDisplay : MonoBehaviour
             rightPortrait.enabled = false;
         }
         Rightname.text = portraitNames[segment.rightPortraitIndex];
+
+        if (leftPortraitSprites[segment.leftPortraitIndex] != null)
+        {
+            leftPortrait.enabled = true;
+            leftPortrait.sprite = leftPortraitSprites[segment.leftPortraitIndex];
+        }
+        else
+        {
+            leftPortrait.enabled = false;
+        }
 
         // Display the text one character at a time
         foreach (char c in segment.text.ToCharArray())
