@@ -9,6 +9,8 @@ public class DialogueSegment
     public string speakerName;
     // The contents of this text segment
     public string text;
+    // Which portrait to display on the right (see the portrait arrays in the DialogueDisplay)
+    public int rightPortraitIndex;
     // The amount of time between this segment starting and the text being displayed (use this for transitions)
     public float waitTime;
     // For each string in this array, call an event with this text as the input when this segment starts. If this is empty, no event is called.

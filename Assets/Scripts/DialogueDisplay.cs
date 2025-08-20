@@ -17,14 +17,13 @@ public class DialogueDisplay : MonoBehaviour
     private bool isAwaitingInput = false; // If this script is currently waiting for an input
     private int currentSegment = 0; // Index for the segment currently being displayed
 
-    public GameObject Leftportrate;
-    public GameObject Rightportrate;
+    public Sprite[] portraitSprites;
+    public string[] portraitNames;
 
-    public Sprite Paul;
-    public Sprite Bob;
-    public Sprite Dan;
+    public SpriteRenderer leftPortrait;
+    public SpriteRenderer rightPortrait;
 
-    public TMP_Text Leftname;    //portraite names
+    public TMP_Text Leftname;
     public TMP_Text Rightname;
 
 
@@ -32,7 +31,6 @@ public class DialogueDisplay : MonoBehaviour
     void Start()
     {
         StartCoroutine(PrintText(segments[0]));
-        Leftname.text = ""; // Set the initial speaker name
 
     }
 
@@ -72,53 +70,17 @@ public class DialogueDisplay : MonoBehaviour
         isPrinting = true;
         speakerText.text = segment.speakerName;
 
-        SpriteRenderer sr = Rightportrate.GetComponent<SpriteRenderer>();
-        sr.sprite = Paul; 
-        if (currentSegment == 0)
+        // Display the character portrait on the right
+        if (portraitSprites[segment.rightPortraitIndex] != null)
         {
-            Leftportrate.SetActive(true);
-            Rightportrate.SetActive(false);
-            Rightname.text = ""; 
+            rightPortrait.enabled = true;
+            rightPortrait.sprite = portraitSprites[segment.rightPortraitIndex];
         }
-        else if (currentSegment == 1)
+        else
         {
-            Leftportrate.SetActive(true);
-            Rightportrate.SetActive(false);
-            //sr.sprite = Bob;
+            rightPortrait.enabled = false;
         }
-        else if (currentSegment == 2)
-        {
-            Leftportrate.SetActive(true);
-            Rightportrate.SetActive(false);
-            //sr.sprite = Dan;
-            Leftname.text = "Jarrod";
-        }
-        else if (currentSegment == 3)
-        {
-            Leftportrate.SetActive(true);
-            Rightportrate.SetActive(false);
-            //sr.sprite = Paul;
-        }
-        else if (currentSegment == 4)
-        {
-            Leftportrate.SetActive(true);
-            Rightportrate.SetActive(false);
-            //sr.sprite = Bob;
-        }
-        else if (currentSegment == 13)
-        {
-            Leftportrate.SetActive(true);
-            Rightportrate.SetActive(true);
-            //sr.sprite = Dan;
-            Rightname.text = "Mrs. Haye";
-        }
-        else if (currentSegment == 16)
-        {
-            Leftportrate.SetActive(true);
-            Rightportrate.SetActive(true);
-            //sr.sprite = Dan;
-            Rightname.text = "Mrs. Haye";
-        }
+        Rightname.text = portraitNames[segment.rightPortraitIndex];
 
         // Display the text one character at a time
         foreach (char c in segment.text.ToCharArray())
